@@ -183,6 +183,28 @@ template {
   display: none;
 }
 
+/* dm-serif-display-regular - latin */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/dm-serif-display-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v9-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v9-latin-regular.woff") format("woff"), url("../fonts/dm-serif-display-v9-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v9-latin-regular.svg#DMSerifDisplay") format("svg");
+  /* Legacy iOS */
+}
+
+/* public-sans-regular - latin */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/public-sans-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/public-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/public-sans-v11-latin-regular.woff") format("woff"), url("../fonts/public-sans-v11-latin-regular.ttf") format("truetype"), url("../fonts/public-sans-v11-latin-regular.svg#PublicSans") format("svg");
+  /* Legacy iOS */
+}
+
 *,
 *::before,
 *::after {
@@ -332,7 +354,7 @@ body {
 }
 
 .empower__item-heading {
-  font-family: DM Serif Display;
+  font-family: 'DM Serif Display';
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -346,7 +368,7 @@ body {
 }
 
 .empower__item-text {
-  font-family: Public Sans;
+  font-family: 'Public Sans';
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
